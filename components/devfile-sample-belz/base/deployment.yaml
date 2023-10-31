@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-belz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0084-tenant/ci1t-43256-0084-app/devfile-sample-belz@sha256:b9f54277717a287a56310a22c21a201f24eeeefc874e0f1ee09df32e5b848032
         name: my-nodejs
         ports:
         - containerPort: 3001
