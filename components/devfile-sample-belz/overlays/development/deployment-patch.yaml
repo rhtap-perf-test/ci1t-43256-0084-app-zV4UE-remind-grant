@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-belz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0084-tenant/ci1t-43256-0084-app/devfile-sample-belz@sha256:b9f54277717a287a56310a22c21a201f24eeeefc874e0f1ee09df32e5b848032
+        name: my-nodejs
+        resources: {}
+status: {}
